@@ -8,5 +8,7 @@ chmod +x shadowsocks-libev.sh
 
 
 wget --no-check-certificate https://raw.githubusercontent.com/wangdoubleyan/avpn/master/shadowsocks.sh
+
 chmod +x shadowsocks.sh
+
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
